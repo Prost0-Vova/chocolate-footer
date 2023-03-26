@@ -224,16 +224,38 @@ color: #FFFFFF;
 /* Mobile Footer */
 
 @media (min-width:320px){
-.footer-container {
-    display: flex;
-    flex-direction: column;
-    
+.footer-container{
+   display:flex;
+  justify-content: center ;
+  flex-direction: column;
+  
+  max-width:375px;
+  margin-left:auto;
+  margin-right:auto;
+  padding-right: 16px;
+    padding-left: 16px;
 }
 .footer-a-text{
-  font-size:24px;
+  display:flex;
+  justify-content: center ;
+  flex-direction: column;
+  
 }
- .address-footer{
-  display:block;
- }
+.address-footer{
+  display:flex;
+  flex-direction: column;
 }
 
+
+}
+
+
+
+
+
+
+@media (min-width:768px){
+
+
+
+}
